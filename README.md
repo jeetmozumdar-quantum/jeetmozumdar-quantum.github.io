@@ -40,9 +40,18 @@ I develop mathematically rigorous frameworks based on open quantum systems theor
 
 ## Preprints
 
+### Compressed Quantum Dynamics and Emergent Tensor-Network Geometry in Operator Systems
+
+A theoretical framework for compressed quantum dynamics based on manifold-induced quantum channels, with stability and composability guarantees for sequential evolution and conditional information-theoretic correlation bounds under tensor-network representability via graph-cut geometry.
+
+- DOI (Zenodo): https://doi.org/10.5281/zenodo.20687401
+- PDF: https://jeetmozumdar-quantum.github.io/JeetMozumdar_QuantumFTNC_v1.0.pdf  
+
+---
+
 ### Lieb–Robinson Bounds and Entanglement Limits in Quantum Dynamics with Finite-Dimensional Memory (2026)
 
-A theoretical framework extending Lieb–Robinson bounds to discrete-time quantum dynamics with finite-dimensional memory subsystems. The work establishes exponential bounds on correlation propagation and defines an effective finite velocity for information spreading in non-Markovian quantum systems.
+A Non-Markovian Lieb–Robinson framework for collision-model quantum dynamics with bond-wise finite memory, establishing exponential correlation propagation bounds via effective kernel compression of memory-history contributions and uniform causal light-cone constraints under exponentially mixing ancilla–memory interactions.
 
 - DOI (Zenodo): https://doi.org/10.5281/zenodo.19842970  
 - PDF: https://jeetmozumdar-quantum.github.io/JeetMozumdar_QuantumLR_v1.pdf  
