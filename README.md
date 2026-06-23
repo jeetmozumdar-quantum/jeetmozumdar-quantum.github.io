@@ -83,4 +83,4 @@ If citing this work, please refer to the individual preprints listed above. The 
 
 ## Keywords (for search indexing)
 
-quantum information theory, quantum networks, entanglement propagation, Lieb–Robinson bounds, non-Markovian quantum dynamics, open quantum systems, quantum channels, many-body physics, quantum communication
+quantum information theory, quantum networks, entanglement propagation, Lieb–Robinson bounds, non-Markovian quantum dynamics, open quantum systems, quantum channels, many-body physics, quantum communication, compressed quantum dynamics, tensor networks, emergent geometry, quantum lattices, tensor network representation, tensor network geometry
