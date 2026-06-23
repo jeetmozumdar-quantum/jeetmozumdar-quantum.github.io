@@ -63,8 +63,7 @@ A Non-Markovian Lieb–Robinson framework for collision-model quantum dynamics w
 Jeet Mozumdar  
 Independent Quantum Science and Engineering Researcher  
 
-ORCID: https://orcid.org/0009-0005-4371-2416  
-Zenodo: https://zenodo.org/records/19842970  
+ORCID: https://orcid.org/0009-0005-4371-2416 
 
 ---
 
