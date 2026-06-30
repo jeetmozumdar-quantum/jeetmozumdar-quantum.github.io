@@ -216,16 +216,25 @@
 const API = "https://quantum-pdf-counter.jeetmozumdar-quantum.workers.dev";
 
 fetch(`${API}/stats/paper1`)
-  .then(r => r.json())
-  .then(d => {
-    document.getElementById("p1").innerText = d.total;
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("p1").textContent = data.total;
+  })
+  .catch(error => {
+    console.error("Error fetching download count:", error);
+    document.getElementById("p1").textContent = "?";
   });
 
 fetch(`${API}/stats/paper2`)
-  .then(r => r.json())
-  .then(d => {
-    document.getElementById("p2").innerText = d.total;
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("p2").textContent = data.total;
+  })
+  .catch(error => {
+    console.error("Error fetching download count:", error);
+    document.getElementById("p2").textContent = "?";
   });
+  
 </script>
 
 </body>
