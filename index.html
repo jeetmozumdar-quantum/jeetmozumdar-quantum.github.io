@@ -164,6 +164,10 @@
 }
       </div>
 
+      <div>
+      Downloads since 01.Jul.2026: <span id="p2">...</span><br>
+      </div>
+
       <p>Last updated: 14 June 2026</p>
     </div>
 
@@ -199,10 +203,30 @@
 }
       </div>
 
+      <div>
+      Downloads since 01.Jul.2026: <span id="p1">...</span><br>
+      </div>
+      
       <p>Last updated: 26 April 2026</p>
     </div>
 
   </div>
+
+<script>
+const API = "https://quantum-pdf-counter.jeetmozumdar-quantum.workers.dev";
+
+fetch(`${API}/stats/paper1`)
+  .then(r => r.json())
+  .then(d => {
+    document.getElementById("p1").innerText = d.total;
+  });
+
+fetch(`${API}/stats/paper2`)
+  .then(r => r.json())
+  .then(d => {
+    document.getElementById("p2").innerText = d.total;
+  });
+</script>
 
 </body>
 </html>
