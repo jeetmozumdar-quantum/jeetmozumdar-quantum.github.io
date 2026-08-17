@@ -132,6 +132,45 @@
   <!-- ===== PAPERS GRID ===== -->
   <div class="paper-grid">
 
+    <!-- ===== PREPRINT 3 ===== -->
+    <div class="paper">
+      <h3>Preprint 3</h3>
+
+      <h4>Entanglement Reachability and Structural Confinement Under Local Quantum Dynamics</h4>
+
+      <h4>Abstract</h4>
+      <p>
+        We study entanglement reachability in quantum many-body systems evolving under physically admissible local dynamics. While Lieb--Robinson bounds constrain the propagation of information, and complexity-based approaches characterize the resources required to represent or prepare quantum states, these frameworks do not by themselves determine which entanglement structures are dynamically attainable...
+        <a href="https://jeetmozumdar-quantum.github.io/JeetMozumdar_QuantumERLD.html" style="font-weight:600;">
+          Continue →
+        </a>
+      </p>
+
+      <div class="links">
+        <a href="https://quantum-pdf-counter.jeetmozumdar-quantum.workers.dev/download/paper3/index">Download PDF</a>
+        <a href="JeetMozumdar_QuantumERLD.html">Preprint Page</a>
+        <a href="https://doi.org/10.5281/zenodo.21846211">Zenodo DOI</a>
+        <a href="https://orcid.org/0009-0005-4371-2416">ORCID</a>
+      </div>
+
+      <h4>Citation</h4>
+      <div class="citation">
+@article{mozumdar2026_structural_confinement,<br>
+  author = {Jeet Mozumdar},<br>
+  title = {Entanglement Reachability and Structural Confinement Under Local Quantum Dynamics},<br>
+  year = {2026},<br>
+  doi = {10.5281/zenodo.21846211},<br>
+  publisher = {Zenodo}<br>
+}
+      </div>
+
+      <div class="downloads">
+      Downloads since 01.Jul.2026: <span id="p3">0</span><br>
+      </div>
+
+      <p>Last updated: 1 August 2026</p>
+    </div>
+
     <!-- ===== PREPRINT 2 ===== -->
     <div class="paper">
       <h3>Preprint 2</h3>
@@ -233,6 +272,16 @@ fetch(`${API}/stats/paper2`)
   .catch(error => {
     console.error("Error fetching download count:", error);
     document.getElementById("p2").textContent = "?";
+  });
+
+fetch(`${API}/stats/paper3`)
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById("p3").textContent = data.total;
+  })
+  .catch(error => {
+    console.error("Error fetching download count:", error);
+    document.getElementById("p3").textContent = "?";
   });
   
 </script>
