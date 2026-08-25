@@ -40,14 +40,19 @@ I develop mathematically rigorous frameworks based on open quantum systems theor
 
 ## Preprints
 
+### Entanglement Reachability and Structural Confinement Under Local Quantum Dynamics: An Axiomatic Approach With Physical Realizations
+
+A unified axiomatic framework for entanglement reachability based on the notion of structural confinement. The framework incorporates finite-range locality, finite-dimensional memory degrees of freedom, and abstract representability constraints expressed through operator subsystems.
+
+- DOI (Zenodo): https://doi.org/10.5281/zenodo.21846211
+- PDF: https://jeetmozumdar-quantum.github.io/JeetMozumdar_QuantumERLD_v1.0.pdf
+
 ### Compressed Quantum Dynamics and Emergent Tensor-Network Geometry in Operator Systems
 
 A theoretical framework for compressed quantum dynamics based on manifold-induced quantum channels, with stability and composability guarantees for sequential evolution and conditional information-theoretic correlation bounds under tensor-network representability via graph-cut geometry.
 
 - DOI (Zenodo): https://doi.org/10.5281/zenodo.20687401
-- PDF: https://jeetmozumdar-quantum.github.io/JeetMozumdar_QuantumFTNC_v1.0.pdf  
-
----
+- PDF: https://jeetmozumdar-quantum.github.io/JeetMozumdar_QuantumFTNC_v1.0.pdf
 
 ### Lieb–Robinson Bounds and Entanglement Limits in Quantum Dynamics with Finite-Dimensional Memory (2026)
 
