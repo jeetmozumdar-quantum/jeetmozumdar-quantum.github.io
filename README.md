@@ -51,7 +51,7 @@ Investigated information propagation in quantum dynamics with finite memory and 
 
 Developed axiomatic framework for structural confinement, illustrated with QEC / MPO / GHZ coherence models. | [PDF](https://quantum-pdf-counter.jeetmozumdar-quantum.workers.dev/download/paper2/index)
 
-- DOI (Zenodo): [https://doi.org/10.5281/zenodo.24100614)](https://doi.org/10.5281/zenodo.24100614)
+- DOI (Zenodo): [https://doi.org/10.5281/zenodo.24100614](https://doi.org/10.5281/zenodo.24100614)
 - Published: Nov 2, 2026
 
 ### Compressed Quantum Dynamics on Operator Systems and Graph-Cut Correlation Bounds under Tensor-Network Geometry (2026).
