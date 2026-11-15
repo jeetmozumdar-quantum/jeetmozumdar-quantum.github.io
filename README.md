@@ -8,15 +8,15 @@ Website: https://jeetmozumdar-quantum.github.io/
 
 ## Research Identity
 
-My research focuses on the theoretical foundations of quantum information processing in realistic, noisy, and distributed quantum systems. In particular, I study how **correlations, memory effects, and structured noise** constrain entanglement propagation and communication limits in quantum networks.
+My research focuses on the foundations of quantum information processing in realistic, noisy, and distributed quantum systems. In particular, I study how **correlations, memory effects, and structured noise** constrain entanglement propagation and communication limits in quantum networks.
 
-I develop mathematically rigorous frameworks based on open quantum systems theory, correlated quantum channels, and many-body dynamics.
+I develop mathematical and computational frameworks for quantum information, based on open quantum systems, correlated quantum channels, and many-body dynamics, as well as frameworks for quantum engineering and quantum computing. My research interests also span quantum error correction (QEC), quantum-HPC, and tensor networks.
 
 ---
 
 ## Core Research Areas
 
-### Quantum Information Theory
+### Quantum Information
 - Entanglement propagation and correlation structure  
 - Fundamental limits of quantum communication  
 - Quantum channel capacities under correlated noise  
@@ -40,26 +40,26 @@ I develop mathematically rigorous frameworks based on open quantum systems theor
 
 ## Preprints
 
-### Entanglement Reachability and Structural Confinement Under Local Quantum Dynamics: An Axiomatic Approach With Physical Realizations (2026)
+### From Local Forgetting to Spatial Attenuation? Reference-Stable Contraction in Partial-SWAP Collision Models (2026).
 
-A unified axiomatic framework for entanglement reachability based on the notion of structural confinement. The framework incorporates finite-range locality, finite-dimensional memory degrees of freedom, and abstract representability constraints expressed through operator subsystems.
+Investigated information propagation in quantum dynamics with finite memory and entanglement. | [PDF](https://quantum-pdf-counter.jeetmozumdar-quantum.workers.dev/download/paper3/index)
 
-- DOI (Zenodo): https://doi.org/10.5281/zenodo.21846211
-- PDF: https://jeetmozumdar-quantum.github.io/JeetMozumdar_QuantumERLD_v1.0.pdf
+- DOI (Zenodo): [https://doi.org/10.5281/zenodo.24100998](https://doi.org/10.5281/zenodo.24100998)
+- Published: Nov 2, 2026
 
-### Compressed Quantum Dynamics and Emergent Tensor-Network Geometry in Operator Systems (2026)
+### Entanglement Reachability and Structural Confinement Under Local Quantum Dynamics: An Axiomatic Approach With Illustrative Realizations (2026).
 
-A theoretical framework for compressed quantum dynamics based on manifold-induced quantum channels, with stability and composability guarantees for sequential evolution and conditional information-theoretic correlation bounds under tensor-network representability via graph-cut geometry.
+Developed axiomatic framework for structural confinement, illustrated with QEC / MPO / GHZ coherence models. | [PDF](https://quantum-pdf-counter.jeetmozumdar-quantum.workers.dev/download/paper2/index)
 
-- DOI (Zenodo): https://doi.org/10.5281/zenodo.20687401
-- PDF: https://jeetmozumdar-quantum.github.io/JeetMozumdar_QuantumFTNC_v1.0.pdf
+- DOI (Zenodo): [https://doi.org/10.5281/zenodo.20687401](https://doi.org/10.5281/zenodo.24100614)
+- Published: Nov 2, 2026
 
-### Lieb–Robinson Bounds and Entanglement Limits in Quantum Dynamics with Finite-Dimensional Memory (2026)
+### Compressed Quantum Dynamics on Operator Systems and Graph-Cut Correlation Bounds under Tensor-Network Geometry (2026).
 
-A Non-Markovian Lieb–Robinson framework for collision-model quantum dynamics with bond-wise finite memory, establishing exponential correlation propagation bounds via effective kernel compression of memory-history contributions and uniform causal light-cone constraints under exponentially mixing ancilla–memory interactions.
+Derived graph-cut correlation bounds for compressed dynamics across MPS, PEPS, MERA. | [PDF](https://quantum-pdf-counter.jeetmozumdar-quantum.workers.dev/download/paper1/index)
 
-- DOI (Zenodo): https://doi.org/10.5281/zenodo.19842970  
-- PDF: https://jeetmozumdar-quantum.github.io/JeetMozumdar_QuantumLR_v1.pdf  
+- DOI (Zenodo): [https://doi.org/10.5281/zenodo.19842970](https://doi.org/10.5281/zenodo.24100094)  
+- Published: Nov 2, 2026
 
 ---
 
@@ -88,4 +88,4 @@ If citing this work, please refer to the individual preprints listed above. The 
 
 ## Keywords (for search indexing)
 
-quantum information theory, quantum networks, entanglement propagation, Lieb–Robinson bounds, non-Markovian quantum dynamics, open quantum systems, quantum channels, many-body physics, quantum communication, compressed quantum dynamics, tensor networks, emergent geometry, quantum lattices, tensor network representation, tensor network geometry
+quantum information theory, quantum networks, entanglement propagation, partial swap collision models, Lieb–Robinson bounds, non-Markovian quantum dynamics, open quantum systems, quantum channels, many-body physics, quantum communication, compressed quantum dynamics, tensor networks, emergent geometry, quantum lattices, tensor network representation, tensor network geometry
