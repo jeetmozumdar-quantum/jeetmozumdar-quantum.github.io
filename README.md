@@ -51,14 +51,14 @@ Investigated information propagation in quantum dynamics with finite memory and 
 
 Developed axiomatic framework for structural confinement, illustrated with QEC / MPO / GHZ coherence models. | [PDF](https://quantum-pdf-counter.jeetmozumdar-quantum.workers.dev/download/paper2/index)
 
-- DOI (Zenodo): [https://doi.org/10.5281/zenodo.20687401](https://doi.org/10.5281/zenodo.24100614)
+- DOI (Zenodo): [https://doi.org/10.5281/zenodo.24100614)](https://doi.org/10.5281/zenodo.24100614)
 - Published: Nov 2, 2026
 
 ### Compressed Quantum Dynamics on Operator Systems and Graph-Cut Correlation Bounds under Tensor-Network Geometry (2026).
 
 Derived graph-cut correlation bounds for compressed dynamics across MPS, PEPS, MERA. | [PDF](https://quantum-pdf-counter.jeetmozumdar-quantum.workers.dev/download/paper1/index)
 
-- DOI (Zenodo): [https://doi.org/10.5281/zenodo.19842970](https://doi.org/10.5281/zenodo.24100094)  
+- DOI (Zenodo): [https://doi.org/10.5281/zenodo.24100094](https://doi.org/10.5281/zenodo.24100094)  
 - Published: Nov 2, 2026
 
 ---
