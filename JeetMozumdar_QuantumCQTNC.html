@@ -14,21 +14,19 @@
   <h1>Compressed Quantum Dynamics and Emergent Tensor-Network Geometry in Operator Systems</h1>
 
   <p><strong>Author:</strong> Jeet Mozumdar</p>
-  <p><strong>PDF:</strong> <a href="https://quantum-pdf-counter.jeetmozumdar-quantum.workers.dev/download/paper2/paper2" target="_blank">Download PDF</a></p>
-  <p><strong>DOI (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.20687402" target="_blank">https://doi.org/10.5281/zenodo.20687402</a></p>
+  <p><strong>PDF:</strong> <a href="https://quantum-pdf-counter.jeetmozumdar-quantum.workers.dev/download/paper1/index" target="_blank">Download PDF</a></p>
+  <p><strong>DOI (Zenodo):</strong> <a href="https://doi.org/10.5281/zenodo.24100094" target="_blank">https://doi.org/10.5281/zenodo.20687402</a></p>
   <p><strong>ORCID:</strong> <a href="https://orcid.org/0009-0005-4371-2416" target="_blank">https://orcid.org/0009-0005-4371-2416</a></p>
 
   <hr>
 
   <h2>Abstract</h2>
   <p>
-  We introduce a tensor-network channel framework for compressed quantum dynamics on operator subsystems associated with variational many-body manifolds. Starting from a tensor-network manifold, we construct manifold-induced Heisenberg channels acting on observables and study the resulting sequential dynamics via their Schr\"odinger duals. The central mathematical result is a compression-stability statement establishing controlled approximation of sequential manifold-induced evolution, yielding a well-defined operator-system description of compressed dynamics with quantitatively bounded leakage.
-		
-		To connect this operator-algebraic structure with tensor-network geometry, we formulate a representability assumption asserting that intrinsic states on the compressed operator subsystem admit tensor-network representatives of bounded bond dimension. Under this assumption, tensor-network geometric structure emerges as a consequence of compressed operator dynamics rather than being imposed a priori as a variational ansatz. All geometric statements are therefore conditional on this representability assumption and do not follow from the operator-algebraic framework alone. In this setting, we establish a graph-cut mutual-information bound for representable states and introduce a geometric correlation-capacity functional determined by bond dimension and network architecture. These results provide quantitative constraints on correlation propagation within the compressed subsystem and relate information flow directly to tensor-network geometry.
-		
-		The framework separates a rigorous operator-algebraic layer—governing compressed observable dynamics and stability under sequential projection—from a conditional geometric layer arising under representability. This separation isolates a mathematically precise core independent of tensor-network structure while identifying the representability problem as the key bridge to geometry. From a physical perspective, tensor-network geometry becomes a dynamical constraint on information propagation and correlation capacity in compressed quantum systems.
-		
-		Illustrative examples involving matrix-product-state manifolds and comparisons across tensor-network architectures demonstrate how graph geometry controls representable correlation scaling. The resulting picture establishes a unified connection between compressed quantum dynamics, operator systems, tensor-network geometry, and quantum information theory, with geometry emerging from operator-algebraic compression under representability.ntum systems.
+  We study compressed Heisenberg-picture dynamics defined by a unital completely positive compression map $\mathbb E_{\mathcal M}$ whose image is an operator system $\mathcal A_{\mathcal M}$ labeled by a tensor-network geometry $(G,D)$. For physical evolutions $\Lambda_k$, the manifold-induced channels $\Phi_{\mathcal M}^{(k)}=\mathbb E_{\mathcal M}\circ\Lambda_k$ form a class that is exactly closed under composition, and we bound the difference between step-wise compression and compression applied once at the end of the evolution. The bound is stated pointwise on propagated observables and is informative only when these remain close to $\mathcal A_{\mathcal M}$.
+  </p>
+
+  <p>
+  Tensor-network geometry is connected to this structure through an explicit representability hypothesis: every state on $\mathcal A_{\mathcal M}$ lies within $\eta_D$ of the restriction of a tensor-network state with graph $G$ and bond dimension at most $D$. Under this hypothesis the standard Schmidt-rank argument gives a graph-cut mutual-information bound for the representatives and a geometric capacity functional $2\log D\,|\partial_G|$. These geometric statements are conditional on the hypothesis: the geometry enters through the hypothesis and the admissibility condition on $\mathbb E_{\mathcal M}$, and is not derived from the operator-algebraic layer. We do not construct a nontrivial admissible compression map; constructing one and deriving representability are left as open problems.
   </p>
 
   <hr>
